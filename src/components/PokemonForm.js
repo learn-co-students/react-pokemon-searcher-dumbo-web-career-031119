@@ -20,8 +20,6 @@ class PokemonForm extends React.Component {
     })
   }
 
-  getInitialState = () => ({ name: '', hp: '', frontUrl: '', backUrl: '' })
-
   handleSubmit = (event) => {
     const {name, hp, frontUrl, backUrl} = this.state
     event.preventDefault();
